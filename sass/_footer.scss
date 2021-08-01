@@ -1,0 +1,27 @@
+#footer {
+   padding: 10px 10px 0px 10px;
+   bottom: 0;
+   width: 100%;
+   /* Height of the footer*/ 
+   height: 138px;
+   background: $secundario;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+#footer a .icon{
+	min-width: 60px;
+	line-height: 70px;
+	text-align: center;
+}
+#footer a .icon ion-icon{
+	font-size: 3.5rem;
+	word-spacing: 35px;
+	color: white;
+}
+.textFooter{
+	font-size: 1.3rem;
+	text-align: center;
+}
+
