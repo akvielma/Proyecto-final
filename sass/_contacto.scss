@@ -1,0 +1,15 @@
+.box{
+	width: 397px;
+	padding: 24px;
+	position: fixed;
+	top: 45%;
+	left: 36.5%;
+	text-align: center;
+}
+.box input[type ="text"], .box input [type="email"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
