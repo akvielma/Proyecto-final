@@ -43,8 +43,8 @@
 	height: 250px;	
 }
 #i3{	
-	/* width: 60%; */
-	height: 300px;	
+	height: 200px;
+	padding: 17px;	
 }
 #i4{	
 	height: 400px;	
@@ -71,32 +71,12 @@
     margin: 28px;
     line-height: 40.6px;
 }
-.pIndex h3 h4 h5 h6{
+.pIndex{
 	font-size: 500%;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
-.card{
-	display: flex;
-	flex-direction: column; 
-	height: 520px;
-	width: 255px;
-	justify-content: center;
-	border-radius: 15px;
-	border: 1px solid rgba(0,212,255,0.5); 
-	background-color: rgba(255, 162, 51, 0.1); 
-	background: linear-gradient($main-bg-gradient);
-	backdrop-filter: blur(25px);
-	box-shadow: $b-s;
-	margin: 10px;
-	align-items: center;
-}
-.card-img-top{
-    height: 376px;
-    width: 170px;
-}
-.bestSellersProducts{
-	display: flex;
-	flex-direction: row;
-}
+
+
+

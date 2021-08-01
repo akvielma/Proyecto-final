@@ -289,8 +289,8 @@
 
 /* line 45, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 #i3 {
-  /* width: 60%; */
-  height: 300px;
+  height: 200px;
+  padding: 17px;
 }
 
 /* line 49, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
@@ -329,40 +329,11 @@
 }
 
 /* line 74, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
-.pIndex h3 h4 h5 h6 {
+.pIndex {
   font-size: 500%;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
-}
-
-/* line 80, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
-.card {
-  display: flex;
-  flex-direction: column;
-  height: 520px;
-  width: 255px;
-  justify-content: center;
-  border-radius: 15px;
-  border: 1px solid rgba(0, 212, 255, 0.5);
-  background-color: rgba(255, 162, 51, 0.1);
-  background: linear-gradient(0deg, #020024 0%, rgba(255, 255, 255, 0) 0%, rgba(0, 212, 255, 0.2) 100%);
-  backdrop-filter: blur(25px);
-  box-shadow: 10px 20px 28px 0px rgba(0, 0, 0, 0.3), 1px 1px 0px 0px rgba(255, 255, 255, 0.2) inset, -6px -5px 13px 5px rgba(255, 255, 255, 0.3) inset;
-  margin: 10px;
-  align-items: center;
-}
-
-/* line 95, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
-.card-img-top {
-  height: 376px;
-  width: 170px;
-}
-
-/* line 99, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
-.bestSellersProducts {
-  display: flex;
-  flex-direction: row;
 }
 
 /* line 1, ../../../../../Documents/Proyecto final/sass/_footer.scss */
@@ -512,6 +483,85 @@ p .recibe {
 /* line 75, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
 h4 .titRec {
   font-weight: 200;
+  text-align: center;
+}
+
+/* line 1, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.paqueteProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+/* line 7, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.card {
+  width: 165px;
+  height: 205px;
+}
+
+/* line 11, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.card-img-top {
+  width: 50%;
+  height: 65%;
+}
+
+/* line 15, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.botonProd {
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: italic;
+  color: #006505;
+  background-color: #82b085;
+  border-radius: 15px;
+  border: 3px double #006505;
+}
+
+/* line 29, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.botonProd:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+/* line 1, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+#i1m {
+  padding: 15px;
+}
+
+/* line 4, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+#i2m {
+  padding: 15px;
+}
+
+/* line 7, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+#i3m {
+  padding: 15px;
+}
+
+/* line 10, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+.tiMis {
+  text-align: left;
+  font-weight: 400;
+}
+
+/* line 14, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+#mtm {
+  text-align: center;
+  background-color: #DDBEA9;
+}
+
+/* line 18, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+#mtm h2 {
+  font-weight: 600;
+}
+
+/* line 21, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+.manesByMell {
   text-align: center;
 }
 

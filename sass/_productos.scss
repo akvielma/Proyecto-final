@@ -1,0 +1,33 @@
+.paqueteProductos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.card{
+	width: 165px;
+	height: 205px;
+}
+.card-img-top{
+	width: 50%;
+	height: 65%;
+}
+.botonProd{
+    text-decoration: none;
+    border:0.5;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid $secundario;
+    padding: 14px auto;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+}
+ .botonProd:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+
