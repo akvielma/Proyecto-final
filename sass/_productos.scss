@@ -4,30 +4,33 @@
 	flex-wrap: wrap;
 	align-content: space-around;
 }
-.card{
-	width: 165px;
-	height: 205px;
+.card-content{
+	height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.card-img-top{
-	width: 50%;
-	height: 65%;
+.card-content img{
+    height:60%;
+    border-radius: 10px;
+    margin-top: 9px;
 }
 .botonProd{
-    text-decoration: none;
     border:0.5;
-    background: none;
+    background: $primario;
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid $secundario;
+    border: 2px solid $primario;
     padding: 14px auto;
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
+    text-decoration: none;
+    color: $texto-primario;
 }
-}
- .botonProd:hover{
+.botonProd:hover{
     opacity: 0.6;
     text-decoration: none;
 }
-
+  

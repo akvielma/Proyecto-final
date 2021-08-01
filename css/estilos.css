@@ -386,6 +386,11 @@ body {
   background-size: cover;
 }
 
+/* line 14, ../../../../../Documents/Proyecto final/sass/_generales.scss */
+img {
+  border-radius: 10px;
+}
+
 /* line 1, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
 .form {
   padding: 5px 2px;
@@ -495,34 +500,37 @@ h4 .titRec {
 }
 
 /* line 7, ../../../../../Documents/Proyecto final/sass/_productos.scss */
-.card {
-  width: 165px;
-  height: 205px;
+.card-content {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* line 11, ../../../../../Documents/Proyecto final/sass/_productos.scss */
-.card-img-top {
-  width: 50%;
-  height: 65%;
+/* line 13, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.card-content img {
+  height: 60%;
+  border-radius: 10px;
+  margin-top: 9px;
 }
 
-/* line 15, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+/* line 18, ../../../../../Documents/Proyecto final/sass/_productos.scss */
 .botonProd {
+  border: 0.5;
+  background: #DDBEA9;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #DDBEA9;
+  padding: 14px auto;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
   text-decoration: none;
-  padding: 3px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: helvetica;
-  font-weight: 300;
-  font-size: 25px;
-  font-style: italic;
-  color: #006505;
-  background-color: #82b085;
-  border-radius: 15px;
-  border: 3px double #006505;
+  color: #FFFFFF;
 }
 
-/* line 29, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+/* line 32, ../../../../../Documents/Proyecto final/sass/_productos.scss */
 .botonProd:hover {
   opacity: 0.6;
   text-decoration: none;
@@ -553,14 +561,15 @@ h4 .titRec {
 #mtm {
   text-align: center;
   background-color: #DDBEA9;
+  border-radius: 10px;
 }
 
-/* line 18, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+/* line 19, ../../../../../Documents/Proyecto final/sass/_mision.scss */
 #mtm h2 {
   font-weight: 600;
 }
 
-/* line 21, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+/* line 22, ../../../../../Documents/Proyecto final/sass/_mision.scss */
 .manesByMell {
   text-align: center;
 }
