@@ -3,28 +3,21 @@
 #header {
   width: 100%;
   height: 124px;
-  /*left: 20px;*/
-  /*background: linear-gradient($main-bg-gradient);*/
-  /*background-color: var(--main-bg-color); */
   border-radius: 10px;
   backdrop-filter: blur(25px);
-  /*/box-shadow: var(--b-s);*/
 }
 
-/* line 11, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 7, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav {
   position: fixed;
   top: 140px;
   left: 10px;
-  /*bottom: 150px;*/
   width: 70px;
   border-radius: 14px;
   box-sizing: initial;
   z-index: 1;
   transition: width 0.5s;
   overflow: hidden;
-  /*background: linear-gradient(var(--main-bg-gradient));*/
-  /* /*background-color: var(--main-bg-color); */
   backdrop-filter: blur(25px);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -32,12 +25,12 @@
   align-content: flex-start;
 }
 
-/* line 30, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 23, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .activeMenu {
   width: 300px;
 }
 
-/* line 33, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 26, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul {
   position: relative;
   top: 0;
@@ -47,7 +40,7 @@
   padding-top: 40px;
 }
 
-/* line 41, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 34, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li {
   position: relative;
   list-style: none;
@@ -56,18 +49,17 @@
   border-bottom-left-radius: 20px;
 }
 
-/* line 49, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 42, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li b:nth-child(1) {
   position: absolute;
   top: -20px;
   height: 20px;
   width: 100%;
-  /*/*background-color: var(--main-bg-color);*/
   backdrop-filter: blur(25px);
   display: none;
 }
 
-/* line 58, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 50, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li b:nth-child(1)::before {
   content: '';
   position: absolute;
@@ -75,29 +67,27 @@
   left: 0;
   width: 100%;
   height: 100%;
-  /*background-color: var(--main-bg-color);*/
   backdrop-filter: blur(25px);
   border-bottom-right-radius: 20px;
 }
 
-/* line 69, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 60, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li.active b:nth-child(1),
 .nav ul li.active b:nth-child(2) {
   display: block;
 }
 
-/* line 74, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 65, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li b:nth-child(2) {
   position: absolute;
   bottom: -20px;
   height: 20px;
   width: 100%;
-  /*background-color: var(--main-bg-color);*/
   backdrop-filter: blur(25px);
   display: none;
 }
 
-/* line 83, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 73, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li b:nth-child(2)::before {
   content: '';
   position: absolute;
@@ -105,18 +95,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  /*background-color: var(--main-bg-color);*/
   backdrop-filter: blur(25px);
   border-top-right-radius: 20px;
 }
 
-/* line 94, ../../../../../Documents/Proyecto final/sass/_header.scss */
-.nav ul li.active {
-  /*background-color: var(--main-bg-color-active);
-	box-shadow: 12px 7px 15px 5px rgba(0 ,0 ,0,0.3) inset;*/
-}
-
-/* line 99, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 83, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li a {
   position: relative;
   display: block;
@@ -126,12 +109,12 @@
   color: #333;
 }
 
-/* line 107, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 91, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li.active a {
   color: #ffff;
 }
 
-/* line 110, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 94, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li a .icon {
   position: relative;
   display: block;
@@ -141,12 +124,12 @@
   text-align: center;
 }
 
-/* line 118, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 102, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li a .icon ion-icon {
   font-size: 1.5em;
 }
 
-/* line 121, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 105, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .nav ul li a .title {
   position: relative;
   display: block;
@@ -156,15 +139,13 @@
   white-space: normal;
 }
 
-/* line 129, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 113, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .toggle {
   position: relative;
   top: 10px;
   right: -12px;
   width: 50px;
   height: 50px;
-  /* /*background-color: var(--main-bg-color); */
-  /* backdrop-filter: blur(25px) ; */
   border-radius: 10px;
   cursor: pointer;
   display: flex;
@@ -172,17 +153,12 @@
   align-items: center;
 }
 
-/* line 143, ../../../../../Documents/Proyecto final/sass/_header.scss */
-.toggle.active {
-  /*background-color: var(--main-bg-color-active);*/
-}
-
-/* line 147, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 125, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .toggle.active ion-icon.close {
   color: black;
 }
 
-/* line 151, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 129, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .toggle ion-icon {
   position: absolute;
   color: black;
@@ -190,19 +166,19 @@
   display: none;
 }
 
-/* line 158, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 136, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .toggle ion-icon.open,
 .toggle.active ion-icon.close {
   display: block;
 }
 
-/* line 163, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 141, ../../../../../Documents/Proyecto final/sass/_header.scss */
 .toggle ion-icon.close,
 .toggle.active ion-icon.open {
   display: none;
 }
 
-/* line 168, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 146, ../../../../../Documents/Proyecto final/sass/_header.scss */
 #logo {
   display: flex;
   align-content: center;
@@ -210,7 +186,7 @@
   align-items: center;
 }
 
-/* line 175, ../../../../../Documents/Proyecto final/sass/_header.scss */
+/* line 153, ../../../../../Documents/Proyecto final/sass/_header.scss */
 #logo img {
   height: 107px;
   width: 223px;
@@ -218,7 +194,7 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1050px) {
-  /* line 182, ../../../../../Documents/Proyecto final/sass/_header.scss */
+  /* line 160, ../../../../../Documents/Proyecto final/sass/_header.scss */
   [class*="nav"] {
     position: sticky;
     float: left;
@@ -226,7 +202,7 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
-  /* line 188, ../../../../../Documents/Proyecto final/sass/_header.scss */
+  /* line 166, ../../../../../Documents/Proyecto final/sass/_header.scss */
   [class*="activeMenu"] {
     width: 97%;
   }
@@ -239,33 +215,20 @@
 }
 
 /* line 6, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
-#saveSpace {
-  /* margin-left: 80px;	 */
-}
-
-/* line 11, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 #page {
-  /* height: 100%; */
-  /*left: 100px;*/
-  /* width: 100%; */
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  /*padding-left: 15px;*/
-  /*padding-right: 15px;*/
-  /*background: linear-gradient($main-bg-gradient);
-    background-color: $main-bg-color;*/
   backdrop-filter: blur(5px);
-  /*box-shadow: $b-s; */
 }
 
-/* line 25, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 12, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 .item {
   width: 100%;
   height: 100%;
 }
 
-/* line 29, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 16, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 .icontent {
   border-radius: 10px;
   border: 1px solid rgba(0, 212, 255, 0.5);
@@ -276,41 +239,40 @@
   margin: 10px;
 }
 
-/* line 38, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 25, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 #i1 {
   height: 250px;
 }
 
-/* line 41, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 28, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 #i2 {
-  /* width: 50%; */
   height: 250px;
 }
 
-/* line 45, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 31, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 #i3 {
   height: 200px;
   padding: 17px;
 }
 
-/* line 49, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 35, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 #i4 {
-  height: 400px;
+  height: 100%;
 }
 
-/* line 52, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 38, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 .afro {
   height: 450px;
 }
 
-/* line 55, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 41, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 .icontent {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
 
-/* line 60, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 46, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 .titInicial {
   display: flex;
   justify-content: center;
@@ -318,17 +280,17 @@
   font-size: 450%;
 }
 
-/* line 66, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 52, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 .textInicial {
   display: flex;
   text-align: right;
   font-size: 1.25rem;
   height: 181px;
   margin: 28px;
-  line-height: 40.6px;
+  line-height: 15.6px;
 }
 
-/* line 74, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 60, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 .pIndex {
   font-size: 500%;
   text-align: center;
@@ -341,7 +303,6 @@
   padding: 10px 10px 0px 10px;
   bottom: 0;
   width: 100%;
-  /* Height of the footer*/
   height: 138px;
   background: #A5A58D;
   display: flex;
@@ -350,21 +311,21 @@
   align-items: center;
 }
 
-/* line 13, ../../../../../Documents/Proyecto final/sass/_footer.scss */
+/* line 12, ../../../../../Documents/Proyecto final/sass/_footer.scss */
 #footer a .icon {
   min-width: 60px;
   line-height: 70px;
   text-align: center;
 }
 
-/* line 18, ../../../../../Documents/Proyecto final/sass/_footer.scss */
+/* line 17, ../../../../../Documents/Proyecto final/sass/_footer.scss */
 #footer a .icon ion-icon {
   font-size: 3.5rem;
   word-spacing: 35px;
   color: white;
 }
 
-/* line 23, ../../../../../Documents/Proyecto final/sass/_footer.scss */
+/* line 22, ../../../../../Documents/Proyecto final/sass/_footer.scss */
 .textFooter {
   font-size: 1.3rem;
   text-align: center;
@@ -572,6 +533,21 @@ h4 .titRec {
 /* line 22, ../../../../../Documents/Proyecto final/sass/_mision.scss */
 .manesByMell {
   text-align: center;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1050px) {
+  /* line 26, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+  [class*="nav"] {
+    position: sticky;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  /* line 32, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+  [class*="activeMenu"] {
+    width: 97%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

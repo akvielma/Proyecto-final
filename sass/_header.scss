@@ -1,26 +1,19 @@
  #header{
 	width: 100%;
 	height:124px;
-	/*left: 20px;*/
-	/*background: linear-gradient($main-bg-gradient);*/
-	/*background-color: var(--main-bg-color); */
 	border-radius: 10px;
 	backdrop-filter: blur(25px) ;
-	/*/box-shadow: var(--b-s);*/
 }
 .nav{
 	position: fixed;
     top: 140px;
     left: 10px;
-    /*bottom: 150px;*/
 	width: 70px;
 	border-radius: 14px;
 	box-sizing: initial;
 	z-index: 1;
 	transition: width 0.5s;
 	overflow: hidden;
-	/*background: linear-gradient(var(--main-bg-gradient));*/
-	/* /*background-color: var(--main-bg-color); */
 	backdrop-filter: blur(25px);
 	border-top: 1px solid rgba(255,255,255,0.5);
 	border-left: 1px solid rgba(255,255,255,0.5);
@@ -51,7 +44,6 @@
 	top: -20px;
 	height: 20px;
 	width: 100%;
-	/*/*background-color: var(--main-bg-color);*/
 	backdrop-filter: blur(25px) ;
 	display: none;
 }
@@ -62,7 +54,6 @@
 	left:0;
 	width: 100%;
 	height: 100%;
-	/*background-color: var(--main-bg-color);*/
 	backdrop-filter: blur(25px) ;
 	border-bottom-right-radius: 20px;
 }
@@ -76,7 +67,6 @@
 	bottom: -20px;
 	height: 20px;
 	width: 100%;
-	/*background-color: var(--main-bg-color);*/
 	backdrop-filter: blur(25px) ;
 	display: none;
 }
@@ -87,14 +77,8 @@
 	left:0;
 	width: 100%;
 	height: 100%;
-	/*background-color: var(--main-bg-color);*/
 	backdrop-filter: blur(25px) ;
 	border-top-right-radius: 20px;
-}
-.nav ul li.active{
-	/*background-color: var(--main-bg-color-active);
-	box-shadow: 12px 7px 15px 5px rgba(0 ,0 ,0,0.3) inset;*/
-
 }
 .nav ul li a{
 	position: relative;
@@ -132,17 +116,11 @@
     right: -12px;
 	width: 50px;
 	height: 50px;
-	/* /*background-color: var(--main-bg-color); */
-	/* backdrop-filter: blur(25px) ; */
 	border-radius: 10px;
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-.toggle.active
-{
-	/*background-color: var(--main-bg-color-active);*/
 }
 .toggle.active ion-icon.close
 {
