@@ -241,7 +241,7 @@
 
 /* line 25, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 #i1 {
-  height: 250px;
+  height: 300px;
 }
 
 /* line 28, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
@@ -285,12 +285,11 @@
   display: flex;
   text-align: right;
   font-size: 1.25rem;
-  height: 181px;
+  height: 205px;
   margin: 28px;
-  line-height: 15.6px;
 }
 
-/* line 60, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+/* line 59, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
 .pIndex {
   font-size: 500%;
   text-align: center;
