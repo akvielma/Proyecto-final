@@ -1,1 +1,335 @@
-@import url("https://fonts.googleapis.com/css2?family=Benne&family=Bitter:wght@100;200;400;600&display=swap");#header{width:100%;height:124px;border-radius:10px;backdrop-filter:blur(25px)}.navContent{width:100%;padding:17px;border-radius:10px;border:1px solid rgba(0,212,255,0.5);background:linear-gradient(0deg,#020024 0%,rgba(255,255,255,0) 0%,rgba(0,212,255,0.2) 100%);backdrop-filter:blur(25px);box-shadow:10px 20px 28px 0px rgba(0,0,0,0.3),1px 1px 0px 0px rgba(255,255,255,0.2) inset,-6px -5px 13px 5px rgba(255,255,255,0.3) inset}.menu{justify-content:space-evenly;width:100%}#logo{display:flex;align-content:center;justify-content:flex-start;align-items:center}#logo img{height:107px;width:223px;border-radius:15px}#saveSpaceTop{width:100%;height:128px}#page{padding:10px;border-radius:10px;min-height:64vh}.item{width:100%;height:100%;padding:17px}.icontent{width:100%;border-radius:10px;padding:17px;border:1px solid rgba(0,212,255,0.5);background:linear-gradient(0deg,#fff 0,rgba(255,255,255,0.5) 83%,rgba(0,212,255,0.2) 100%);backdrop-filter:blur(25px);box-shadow:10px 20px 28px 0px rgba(0,0,0,0.3),1px 1px 0px 0px rgba(255,255,255,0.2) inset,-6px -5px 13px 5px rgba(255,255,255,0.3) inset}.titInicial{display:flex;justify-content:center;text-align:right;text-transform:uppercase;font-weight:bold;font-size:450%}.textInicial{display:flex;text-align:justify;font-size:1.25rem}.pIndex{font-size:500%;text-align:center;text-transform:uppercase;letter-spacing:5px}#footer{padding:10px 10px 0px 10px;bottom:0;width:100%;background:#A5A58D;display:flex;flex-direction:column;justify-content:space-between;align-items:center}#footer a .icon{min-width:60px;line-height:70px;text-align:center}#footer a .icon ion-icon{font-size:3.5rem;word-spacing:35px;color:white}.textFooter{font-size:1.3rem;text-align:center}*{padding:0;margin:0;box-sizing:border-box;font-family:'Bitter', serif}body{min-height:100vh;background-image:url("../media/bgd.jpg");background-repeat:no-repeat;background-size:cover}img{border-radius:10px;width:100%}#i5{background:linear-gradient(0deg, #fff 25%, rgba(255,255,255,0) 70%, rgba(0,212,255,0.6) 100%)}.formContainer{justify-content:center}.box{display:flex;justify-content:center;align-items:center;padding:17px;width:auto;text-align:center}.box h2{color:#fff;text-transform:uppercase;font-weight:400}.box input[type="text"]{border:1.2rem;background:none;display:block;margin:20px auto;text-align:center;border:2px solid #A5A58D;padding:14px 10px;width:200px;border-radius:24px;transition:0.25s;outline-style:none}.box input[type="email"]{border:1.2rem;background:none;display:block;margin:20px auto;text-align:center;border:2px solid #A5A58D;padding:14px 10px;width:200px;border-radius:24px;transition:0.25s;outline-style:none}.box input[type="text"]:focus,.box input[type="email"]:focus{width:350px;border-color:#DDBEA9;border-radius:24px}.box input[type="submit"]{background:none;display:block;margin:20px auto;text-align:center;border:2px solid #A5A58D;border-radius:24px;transition:0.25s;cursor:pointer;padding:4px 20px}.box input[type="submit"]:hover{background:#A5A58D}.brad{justify-content:center}.recibe{font-size:127%;text-align:center;letter-spacing:2.1px}.titleRecibe{font-weight:200;color:#000;text-transform:uppercase;text-align:center}.paqueteProductos{display:flex;flex-direction:row;flex-wrap:wrap;align-content:space-around}.card-content{height:450px;display:flex;flex-direction:column;align-items:center;background:linear-gradient(0deg, #fff 25%, rgba(255,255,255,0) 70%, rgba(0,212,255,0.6) 100%)}.botonProd{border:0.5;background:#DDBEA9;display:block;margin:20px auto;text-align:center;border:2px solid #DDBEA9;padding:14px auto;border-radius:24px;transition:0.25s;cursor:pointer;text-decoration:none;color:#fff}.botonProd:hover{opacity:0.6;text-decoration:none}.cardimg{width:100%;height:100%;background-repeat:no-repeat;background-size:25%;background-position:center}.titleVideos{text-align:center;font-weight:400;color:#000}.mtm{text-align:center;background-color:#DDBEA9;border-radius:10px}.mtm h2{font-weight:600;color:#fff;text-transform:uppercase}.tituloPol{text-align:center;font-weight:400;color:#000}.textPol{text-align:justify}
+@import url("https://fonts.googleapis.com/css2?family=Benne&family=Bitter:wght@100;200;400;600&display=swap");
+/* line 1, ../../../../../Documents/Proyecto final/sass/_header.scss */
+#header {
+  width: 100%;
+  height: 124px;
+  border-radius: 10px;
+  backdrop-filter: blur(25px);
+}
+
+/* line 7, ../../../../../Documents/Proyecto final/sass/_header.scss */
+.navContent {
+  width: 100%;
+  padding: 17px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 212, 255, 0.5);
+  background: linear-gradient(0deg, #020024 0%, rgba(255, 255, 255, 0) 0%, rgba(0, 212, 255, 0.2) 100%);
+  backdrop-filter: blur(25px);
+  box-shadow: 10px 20px 28px 0px rgba(0, 0, 0, 0.3), 1px 1px 0px 0px rgba(255, 255, 255, 0.2) inset, -6px -5px 13px 5px rgba(255, 255, 255, 0.3) inset;
+}
+
+/* line 16, ../../../../../Documents/Proyecto final/sass/_header.scss */
+.menu {
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+/* line 20, ../../../../../Documents/Proyecto final/sass/_header.scss */
+#logo {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 27, ../../../../../Documents/Proyecto final/sass/_header.scss */
+#logo img {
+  height: 107px;
+  width: 223px;
+  border-radius: 15px;
+}
+
+/* line 1, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+#saveSpaceTop {
+  width: 100%;
+  height: 128px;
+}
+
+/* line 5, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+#page {
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 64vh;
+}
+
+/* line 10, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+.item {
+  width: 100%;
+  height: 100%;
+  padding: 17px;
+}
+
+/* line 15, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+.icontent {
+  width: 100%;
+  border-radius: 10px;
+  padding: 17px;
+  border: 1px solid rgba(0, 212, 255, 0.5);
+  background: linear-gradient(0deg, #ffffff 0, rgba(255, 255, 255, 0.5) 83%, rgba(0, 212, 255, 0.2) 100%);
+  backdrop-filter: blur(25px);
+  box-shadow: 10px 20px 28px 0px rgba(0, 0, 0, 0.3), 1px 1px 0px 0px rgba(255, 255, 255, 0.2) inset, -6px -5px 13px 5px rgba(255, 255, 255, 0.3) inset;
+}
+
+/* line 24, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+.titInicial {
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3.25rem;
+}
+
+/* line 32, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+.textInicial {
+  display: flex;
+  text-align: justify;
+}
+
+/* line 36, ../../../../../Documents/Proyecto final/sass/_indexstyle.scss */
+.pIndex {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* line 1, ../../../../../Documents/Proyecto final/sass/_footer.scss */
+#footer {
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  background: #A5A58D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 11, ../../../../../Documents/Proyecto final/sass/_footer.scss */
+#footer a .icon {
+  min-width: 60px;
+  line-height: 70px;
+  text-align: center;
+}
+
+/* line 16, ../../../../../Documents/Proyecto final/sass/_footer.scss */
+#footer a .icon ion-icon {
+  font-size: 3.5rem;
+  word-spacing: 35px;
+  color: white;
+}
+
+/* line 21, ../../../../../Documents/Proyecto final/sass/_footer.scss */
+.textFooter {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* line 2, ../../../../../Documents/Proyecto final/sass/_generales.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Bitter', serif;
+}
+
+/* line 8, ../../../../../Documents/Proyecto final/sass/_generales.scss */
+body {
+  min-height: 100vh;
+  background-image: url("../media/bgd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: initial;
+}
+
+/* line 16, ../../../../../Documents/Proyecto final/sass/_generales.scss */
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* line 1, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+#i5 {
+  background: linear-gradient(0deg, #ffffff 25%, rgba(255, 255, 255, 0) 70%, rgba(0, 212, 255, 0.6) 100%);
+}
+
+/* line 4, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.formContainer {
+  justify-content: center;
+}
+
+/* line 7, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  width: auto;
+  text-align: center;
+}
+
+/* line 15, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.box h2 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* line 20, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.box input[type="text"] {
+  border: 1.2rem;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #A5A58D;
+  padding: 14px 10px;
+  width: 200px;
+  border-radius: 24px;
+  transition: 0.25s;
+  outline-style: none;
+}
+
+/* line 33, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.box input[type="email"] {
+  border: 1.2rem;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #A5A58D;
+  padding: 14px 10px;
+  width: 200px;
+  border-radius: 24px;
+  transition: 0.25s;
+  outline-style: none;
+}
+
+/* line 46, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.box input[type="text"]:focus, .box input[type="email"]:focus {
+  width: 350px;
+  border-color: #DDBEA9;
+  border-radius: 24px;
+}
+
+/* line 51, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.box input[type="submit"] {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #A5A58D;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  padding: 4px 20px;
+}
+
+/* line 62, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.box input[type="submit"]:hover {
+  background: #A5A58D;
+}
+
+/* line 66, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.brad {
+  justify-content: center;
+}
+
+/* line 69, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.recibe {
+  font-size: 127%;
+  text-align: center;
+  letter-spacing: 2.1px;
+}
+
+/* line 74, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
+.titleRecibe {
+  font-weight: 200;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 1, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.paqueteProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+/* line 7, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.card-content {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(0deg, #ffffff 25%, rgba(255, 255, 255, 0) 70%, rgba(0, 212, 255, 0.6) 100%);
+}
+
+/* line 14, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.botonProd {
+  border: 0.5;
+  background: #DDBEA9;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #DDBEA9;
+  padding: 14px auto;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* line 28, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.botonProd:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+/* line 32, ../../../../../Documents/Proyecto final/sass/_productos.scss */
+.cardimg {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;
+}
+
+/* line 1, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+.titleVideos {
+  text-align: center;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* line 6, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+.mtm {
+  text-align: center;
+  background-color: #DDBEA9;
+  border-radius: 10px;
+}
+
+/* line 11, ../../../../../Documents/Proyecto final/sass/_mision.scss */
+.mtm h2 {
+  font-weight: 600;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+/* line 1, ../../../../../Documents/Proyecto final/sass/_politicas.scss */
+.tituloPol {
+  text-align: center;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* line 6, ../../../../../Documents/Proyecto final/sass/_politicas.scss */
+.textPol {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=estilos.css.map */
