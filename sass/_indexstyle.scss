@@ -1,60 +1,38 @@
-#saveSpaceTop
-{
+#saveSpaceTop{
 	width: 100%;
     height: 128px;
 }
 #page{
     padding: 10px;
-    margin: 10px;
     border-radius: 10px;
-	backdrop-filter: blur(5px);
+	min-height: 64vh;
 }
 .item{
 	width: 100%;
 	height: 100%;
+	padding: 17px;
 }
 .icontent{
-	border-radius: 10px;
+	width: 100%;
+    border-radius: 10px; 
+    padding: 17px;
 	border: 1px solid rgba(0,212,255,0.5); 
-	background-color: rgba(255, 162, 51, 0.1); 
 	background: linear-gradient($main-bg-gradient);
 	backdrop-filter: blur(25px);
 	box-shadow: $b-s;
-	margin: 10px;
-}
-#i1{
-	height: 300px;	
-}
-#i2{
-	height: 250px;	
-}
-#i3{	
-	height: 200px;
-	padding: 17px;	
-}
-#i4{	
-	height: 100%;	
-}
-.afro{
-	height: 450px;
-}
-.icontent{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;   
-}
+}	
 .titInicial{
 	display: flex;
     justify-content: center;
+    text-align: right;
+    text-transform: uppercase;
     font-weight: bold; 
     font-size: 450%;
 }
 .textInicial{
     display: flex;
-    text-align: right;
+    text-align: justify; 
     font-size: 1.25rem;
-    height: 205px;
-    margin: 28px;
 }
 .pIndex{
 	font-size: 500%;

@@ -1,35 +1,15 @@
-#i1m{
-	padding: 15px;
-}
-#i2m{
-	padding: 15px;
-}
-#i3m{
-	padding: 15px;
-}
-.tiMis{
-	text-align: left;
+.titleVideos{
+	text-align: center;
 	font-weight: 400;
+	color: $texto-secundario;
 }
-#mtm{
+.mtm{
 	text-align: center;
 	background-color: $primario;
 	border-radius: 10px;
 }
-#mtm h2{
+.mtm h2{
 	font-weight: 600;
-}
-.manesByMell{
-	text-align: center;
-}
-@media only screen and (min-width: 1024px) and (max-width: 1050px){
-  [class*="nav"] {
-    	position: sticky;
-    	float: left;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 1023px){
-  [class*="activeMenu"] {
-    	width: 97%;
-  }
+	color: $texto-primario;
+	text-transform: uppercase;	
 }

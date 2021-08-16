@@ -14,76 +14,70 @@
 		<div id="header">
 			<div id="logo"><img src="media/LOGO.jpg" alt="logo"></div>
 		</div>
-		<div class="nav">
-			<div class="toggle">
-				<ion-icon name="menu-outline" class="open"></ion-icon>
-				<ion-icon name="close-outline" class="close"></ion-icon>
-			</div>
-			<ul>
-				<li class="list active">
-					<a href="index.html">
-						<span class="icon"><ion-icon name="home-outline"></ion-icon></span>
-						<span class="title">Home</span>
-					</a>
-				</li>
-				<li class="list">
-					<a href="mision.html">
-						<span class="icon"><ion-icon name="book-outline"></ion-icon></span>
-						<span class="title">Nuestra misión</span>
-					</a>
-				</li>
-				<li class="list">
-					<a href="productos.html">
-						<span class="icon"><ion-icon name="pricetags-outline"></ion-icon></span>
-						<span class="title">Productos</span>
-					</a>
-				</li>
-				<li class="list">
-					<a href="contacto.html">
-						<span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
-						<span class="title">Contacto</span>
-					</a>
-				</li>
-				<li class="list">
-					<a href="politicas.html">
-						<span class="icon"><ion-icon name="skull-outline"></ion-icon></span>
-						<span class="title">Devoluciones</span>
-					</a>
-				</li>
-			</ul>
-		</div>
+		<nav class="navContent navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+		  		<a class="navbar-brand d-lg-none" href="#">Contacto</a>
+		    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		      		<span class="navbar-toggler-icon"></span>
+		   		</button>
+		    	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		    		<ul class="menu navbar-nav me-auto mb-2 mb-lg-0">
+          				<li class="nav-item">
+                  			<a class="nav-link" href="index.html">Home</a>
+                  		</li>
+                  		<li class="nav-item">
+                  			<a class="nav-link" href="productos.html">Productos</a>
+                  		</li>
+                 		<li class="nav-item">
+                			<a class="nav-link" href="contacto.html">Contacto</a>
+                		</li>
+                		<li class="nav-item">
+                			<a class="nav-link" href="mision.html">Nuestra misión</a>
+                		</li>
+                		<li class="nav-item">
+                			<a class="nav-link" href="politicas.html">Políticas de devolución</a>
+                		</li>
+                		<li class="nav-item dropdown"></li>
+			        </ul>
+		    	</div>
+		  </div>
+		</nav>
 		<div id="saveSpace">
 			<div id="page" class="container-fluid">
-				<div class="jumbotron jumbotron-fluid">
-  					<div class="container">
-    				<h2 class="display-4">¿Necesitas una asesoría adicional?</h2>
-    				<p class="lead1">Un tip que te compartimos es que si no tienes idea cuáles son los productos que realmente te favorecen, sí o sí debes de escribirnos un lindo mensaje para solicitar apoyo</p>
+				<div class="item jumbotron jumbotron-fluid">
+  					<div class="row">
+    					<h2 class="display-4">¿Necesitas una asesoría adicional?</h2>
+    					<p class="lead1">Un tip que te compartimos es que si no tienes idea cuáles son los productos que realmente te favorecen, sí o sí debes de escribirnos un lindo mensaje para solicitar apoyo</p>
   					</div>
 				</div>
-			<div class="box" class="item col-lg-6 .col-md-5 .col-sm-12 .col-12"><div id="i5" class="icontent">
-				<form action="recibe.html" method="POST" enctype="multipart/form-data">
-					<h2>S.O.S.</h2>
-					<label>Nombre/Alias </label>
-					<input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
-					<label>Correo electronico: </label>
-					<input type="email" name="email" placeholder="Ingresa tu correo" required>
-					<input type="submit" name="boton" value="SEND">
-				</form>
-			</div></div>
-			<div class="row">
-  				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    				<img src="media/af.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="afroGirl"/>
-    				<img src="media/sjp.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="sarahJessica"/>
-    			</div>
-				<div class="col-lg-4 mb-4 mb-lg-0">
-    				<img src="media/julia.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="juliaRoberts"/>
-    				<img src="media/short.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="shorthair"/>
-    			</div>
-				<div class="col-lg-4 mb-4 mb-lg-0">
-    				<img src="media/zendaya.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="zendaya"/>
-    				<img src="media/hair.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="longHair"/>
-  				</div>
+				<div class="box row formContainer">
+					<div class="item col-lg-6 .col-md-5 .col-sm-12 .col-12"><div id="i5" class="icontent">
+						<form  action="recibe.html" method="POST" enctype="multipart/form-data">
+							<h2>S.O.S.</h2>
+							<label>Nombre/Alias </label>
+							<input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+							<label>Correo electronico: </label>
+							<input type="email" name="email" placeholder="Ingresa tu correo" required>
+							<input type="submit" name="boton" value="SEND">
+						</form>
+					</div></div>
+				</div>
+				<div class="row">
+  					<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    					<img src="media/af.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="afroGirl"/>
+    					<img src="media/sjp.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="sarahJessica"/>
+    				</div>
+					<div class="col-lg-4 mb-4 mb-lg-0">
+    					<img src="media/julia.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="juliaRoberts"/>
+    					<img src="media/short.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="shorthair"/>
+    				</div>
+					<div class="col-lg-4 mb-4 mb-lg-0">
+    					<img src="media/zendaya.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="zendaya"/>
+    					<img src="media/hair.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="longHair"/>
+  					</div>
+				</div>
 			</div>
+		</div>
 		<div id="footer">
 			<div class="textFooter">
 				<p>Curlo es una página creada para el Curso de Desarrollo Web</p>
@@ -91,17 +85,17 @@
 			<div class="row">
 				<div  class="item  col-4">
 					<a  href="https://www.instagram.com/akvielma/" target="e_blank">
-					<span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+						<span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
 					</a>
 				</div>
 				<div  class="item  col-4">
 					<a href="https://github.com/akvielma" target="e_blank">
-					<span class="icon"><ion-icon name="logo-github"></ion-icon></span>
+						<span class="icon"><ion-icon name="logo-github"></ion-icon></span>
 					</a>
 				</div>
 				<div  class="item  col-4">
 					<a href="https://www.linkedin.com/in/anavielma/" target="e_blank">
-					<span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span>
+						<span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span>
 					</a>
 				</div>
 			</div>
@@ -109,7 +103,5 @@
 	</div>
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-	<!-- link del javascript -->
-	<script src="./js/selectmenu.js"></script>
 </body>
 </html>
