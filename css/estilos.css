@@ -208,7 +208,7 @@ img {
 
 /* line 46, ../../../../../Documents/Proyecto final/sass/_contacto.scss */
 .box input[type="text"]:focus, .box input[type="email"]:focus {
-  width: 50%;
+  width: 60%;
   border-color: #DDBEA9;
   border-radius: 24px;
 }
